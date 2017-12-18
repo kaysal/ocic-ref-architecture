@@ -3,6 +3,7 @@
 This example creates a simple reference architecture on OCI Classic Oracle Cloud. See the link for the architecture diagram:
 [OCIC Architecture]
 
+The complete scenario is in the link - [Cloud Network Things]
 
 The example uses recommended Infrastructure as a Code (IAC) principles as outlined in the book *[Terraform: Up and Running]* as follows:
 ### Architecture Principles
@@ -54,5 +55,6 @@ module "bastion-windows" {
 ```
 
 [OCIC Architecture]: <https://storage.googleapis.com/cloud-network-things/oracle/ocic_arch/image_8_1.png>
-[IAC Blueprint]: <https://storage.googleapis.com/cloud-network-things/oracle/oci_terraform_arch/iac_blueprint_ocic.png>
+[Cloud Network Things]: http://www.cloudnetworkthings.com/index.php/csp/13-terraform-ocic
+[IAC Blueprint]: <https://storage.googleapis.com/cloud-network-things/oracle/oci_terraform_arch/iac_blueprint_oci.png>
 [Terraform: Up and Running]: <https://www.terraformupandrunning.com/>
